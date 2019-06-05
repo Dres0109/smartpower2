@@ -124,7 +124,7 @@ void setup() {
 
     webserver_init();
 
-    timerId = timer.setInterval(1000, handler);
+    timerId = timer.setInterval(100, handler);
 
     // Log
     logServer.begin();
